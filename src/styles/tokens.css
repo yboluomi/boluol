@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #0A0E14;
+  --bg-secondary: #0F1620;
+  --card: rgba(20, 28, 40, 0.88);
+  --card-highlight: #1B2534;
+  --border: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.10);
+  --gold: #E8B44A;
+  --teal: #4FD1C5;
+  --red: #D96C6C;
+  --text: #C7D2E0;
+  --muted: #6B7A90;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: Inter, "Noto Sans SC", system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
